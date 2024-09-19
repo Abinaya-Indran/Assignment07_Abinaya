@@ -11,20 +11,14 @@
     
   }
  
- .content{
-    display:flex;
-    flex-direction: row;
-    list-style-type: none;
-    font-size:30px;
-    font-family:'Courier New', Courier, monospace;
- 
+.content-container{
+    padding: 100px;
 }
 
 li{
     
     padding: 25px;
 }
-
 .cup{
     font-size: 50px;
     position: relative;
@@ -36,3 +30,54 @@ li{
     flex-direction: row-reverse;
     padding-right: 50px;
 } 
+
+.main-container{
+display: flex;
+justify-content: space-around;
+background-color: rgba(55,35,10,255);
+width: 90%;
+margin-left: 100px;
+
+}
+h2{
+    color: #be7731;
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: #a39570;
+    font-size: 25px;
+}
+.button{
+    display: flex;
+    flex-direction:row;
+   
+ }
+ .button1{
+     margin: 0 20px;
+     font-size: 20px;
+     border-radius: 50px;
+     padding: 10px 20px ;
+     background-color: #c8914b;
+ }
+ .button2{
+     margin: 0 20px;
+     font-size: 20px;
+     border-radius: 50px;
+     padding: 10px 20px ;
+     background-color:rgba(55,35,10,255);
+     border: 2px solid white;
+     color:#aea799;
+     
+ }
+ img{
+    width:50%;
+    padding: 100px;
+   
+ }
+
