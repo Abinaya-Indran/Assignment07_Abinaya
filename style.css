@@ -11,13 +11,8 @@
     
  }
  
- .content{
-    display:flex;
-    flex-direction: row;
-    list-style-type: none;
-    font-size:30px;
-    font-family:'Courier New', Courier, monospace;
- 
+.content-container{
+    padding: 100px;
 }
 
 li{
@@ -28,6 +23,8 @@ li{
 display: flex;
 justify-content: space-around;
 background-color: rgba(55,35,10,255);
+width: 90%;
+margin-left: 100px;
 
 }
 h2{
@@ -65,5 +62,10 @@ p{
      border: 2px solid white;
      color:#aea799;
      
+ }
+ img{
+    width:50%;
+    padding: 100px;
+   
  }
  
