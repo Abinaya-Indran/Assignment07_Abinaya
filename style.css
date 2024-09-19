@@ -2,10 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: rgba(71,50,26,255);
+    color: aliceblue;
  }
 
  h1{
      font-size:50px;
+    
  }
  
  .content{
