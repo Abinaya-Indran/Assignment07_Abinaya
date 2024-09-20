@@ -41,7 +41,7 @@ li{
     display: flex;
     justify-content: space-around;
     background-color: rgba(55,35,10,255);
-    width: 100%;
+    width: 90%;
     margin-left: 100px;
 }
 
