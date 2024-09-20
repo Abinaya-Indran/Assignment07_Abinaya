@@ -118,5 +118,15 @@ li{
         width: 60%;
      
     }
-    
- 
+    .menu{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        color:#a9a195;
+        width: 90%;
+        padding-left: 180px;
+    }
+    strong{
+        font-size: 22px;
+        color: #d6d5d6;
+    }
+   
