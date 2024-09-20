@@ -36,7 +36,7 @@ li{
     display: flex;
     flex-direction: row-reverse;
     padding-right: 50px;
-} 
+}
 .main-container{
     display: flex;
     justify-content: space-around;
@@ -44,6 +44,7 @@ li{
     width: 90%;
     margin-left: 100px;
     }
+
     h2{
         color: #BE7731;
         font-size:50px;
@@ -116,7 +117,4 @@ li{
 
     .img{
         width: 60%;
-     
-    }
-    
- 
+       }
