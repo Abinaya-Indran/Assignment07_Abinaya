@@ -103,9 +103,8 @@ li{
 
     .part1{
         color: aliceblue;
-        text-decoration:underline;
-        
-
+        text-decoration: underline solid burlywood;
+       
     }
 
     .part2{
@@ -119,4 +118,5 @@ li{
         width: 60%;
      
     }
+    
  
