@@ -38,13 +38,17 @@ li{
 } 
 
 .main-container{
-display: flex;
-justify-content: space-around;
-background-color: rgba(55,35,10,255);
-width: 90%;
-margin-left: 100px;
-
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(55,35,10,255);
+    width: 100%;
+    margin-left: 100px;
 }
+
+.content-container{
+    padding: 100px;
+}
+
 h2{
     color: #be7731;
     font-size:50px;
