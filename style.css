@@ -80,6 +80,10 @@ li{
          border: 2px solid white;
          color:#aea799;
      }
+     .button1:hover{
+        transform: scale(0.8) ;
+     }
+     
      img{
         width:50%;
         padding: 100px;
@@ -128,6 +132,9 @@ li{
         padding-left: 100px;
         text-align: center;
     }
+    .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{
+        transform: scale(0.8) ;
+    }
    
 
     strong{
@@ -144,7 +151,7 @@ li{
         margin-left: 100px;
         
     }
-
+    
    .ourmenu{
     text-align: center;
     font-size: 50px;
@@ -164,6 +171,7 @@ li{
     margin: 0 8px;
 
    }
+  
    .img1{
       width: 30vw;
      padding-top: 80px;
@@ -179,9 +187,9 @@ li{
   }
 
   .section1{
-  text-align: center;
-  font-size: 50px;
-  text-decoration: underline solid burlywood;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline solid burlywood;
   }
   .section2{
     display: flex;
@@ -189,3 +197,38 @@ li{
     border-style: initial;
     border: 5px solid #BE7731;
   }
+
+  .Big{
+    background-color: rgba(70,50,25,255);
+    width:90%;
+    height: 70vw;
+    margin-left: 100px;
+
+  }
+  .topic{
+    padding-top: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline solid burlywood;
+  }
+  .gallery{
+   
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    padding-right:140px;
+    padding-top: 50px;
+    margin: 0 10px;
+   
+  }
+ .photo{
+    width:170%;
+    height: 13vw;
+    cursor: pointer;
+    
+ }
+.photo:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 30px;
+}
+
