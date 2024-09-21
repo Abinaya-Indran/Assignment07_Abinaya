@@ -206,9 +206,23 @@ li{
 
   }
   .topic{
+    padding-top: 10px;
     color: aliceblue;
     text-align: center;
     font-size: 50px;
     text-decoration: underline solid burlywood;
   }
-
+  .gallery{
+   
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    padding-right:140px;
+    padding-top: 50px;
+    margin: 0 10px;
+    border-radius:50px;
+  }
+ .photo{
+    width:170%;
+    height: 13vw;
+   
+ }
