@@ -81,6 +81,10 @@ li{
          border: 2px solid white;
          color:#aea799;
      }
+     .button1:hover{
+        transform: scale(0.8) ;
+     }
+     
      img{
         width:50%;
         padding: 100px;
@@ -219,10 +223,15 @@ li{
     padding-right:140px;
     padding-top: 50px;
     margin: 0 10px;
-    border-radius:50px;
+   
   }
  .photo{
     width:170%;
     height: 13vw;
-   
+    cursor: pointer;
+    
  }
+.photo:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 30px;
+}
