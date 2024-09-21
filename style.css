@@ -42,7 +42,7 @@ li{
 } 
 .main-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgba(55,35,10,255);
     width: 90%;
     margin-left: 100px;
@@ -84,10 +84,15 @@ li{
      .button1:hover{
         transform: scale(0.8) ;
      }
-     
+
      img{
         width:50%;
         padding: 100px;
+       
+       
+     }
+     img:hover{
+        transform: scale(1.5) ;
      }
      .content-container{
         padding: 100px;
@@ -118,6 +123,7 @@ li{
         color:#aea799;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
+
        
     }
 
@@ -136,7 +142,7 @@ li{
     
     }
     .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{
-        transform: scale(0.8) ;
+        transform: scale(1.1) ;
     }
    
 
