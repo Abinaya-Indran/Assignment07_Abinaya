@@ -123,7 +123,10 @@ li{
         grid-template-columns: 1fr 1fr 1fr;
         color:#a9a195;
         width: 90%;
-        padding-left: 180px;
+        padding-left: 100px;
+        text-align: center;
+       
+    
     }
     strong{
         font-size: 22px;
@@ -131,6 +134,8 @@ li{
     }
     .main-menu{
         background-color: #37230a;
+        border-style: solid ;
+        border-width: 5px;
         border-color: rgb(206, 135, 63);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         width: 90%;
@@ -145,6 +150,30 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline solid burlywood;
    }
-   .img,.note{
+   .img{
       padding: 10px 10px;
+      width: auto;
+     
+     
    }
+   .note{
+    display:grid;
+    border-style: initial;
+    border: 1px solid orange;
+    text-align: center;
+    margin: 0 8px;
+
+   }
+   .img1{
+      width: 30vw;
+     padding-top: 80px;
+   }
+   .img2{
+    padding-top: 30px;
+   }
+  .img3{
+    padding: 0 10px;
+  }
+  .img4{
+    padding: 0 20px;
+  }
