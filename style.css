@@ -17,8 +17,6 @@
     list-style-type: none;
     font-size:30px;
     font-family:'Courier New', Courier, monospace;
-
- 
 }
 
 li{
@@ -36,7 +34,7 @@ li{
     display: flex;
     flex-direction: row-reverse;
     padding-right: 50px;
-} 
+}
 .main-container{
     display: flex;
     justify-content: space-around;
@@ -44,6 +42,7 @@ li{
     width: 90%;
     margin-left: 100px;
     }
+
     h2{
         color: #BE7731;
         font-size:50px;
@@ -115,7 +114,7 @@ li{
     }
 
     .img{
-        width: 60%;
+       width: 60%;
      
     }
     .menu{
@@ -126,7 +125,6 @@ li{
         padding-left: 100px;
         text-align: center;
        
-    
     }
     strong{
         font-size: 22px;
@@ -153,8 +151,6 @@ li{
    .img{
       padding: 10px 10px;
       width: auto;
-     
-     
    }
    .note{
     display:grid;
@@ -176,4 +172,4 @@ li{
   }
   .img4{
     padding: 0 20px;
-  }
+   }
