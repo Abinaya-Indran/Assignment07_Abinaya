@@ -131,6 +131,9 @@ li{
         
     
     }
+    .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{
+        transform: scale(0.8) ;
+    }
    
 
     strong{
@@ -147,7 +150,7 @@ li{
         margin-left: 100px;
         
     }
-
+    
    .ourmenu{
     text-align: center;
     font-size: 50px;
@@ -185,9 +188,9 @@ li{
   }
 
   .section1{
-  text-align: center;
-  font-size: 50px;
-  text-decoration: underline solid burlywood;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline solid burlywood;
   }
   .section2{
     display: flex;
@@ -195,3 +198,17 @@ li{
     border-style: initial;
     border: 5px solid #BE7731;
   }
+  .Big{
+    background-color: rgba(70,50,25,255);
+    width:90%;
+    height: 70vw;
+    margin-left: 100px;
+
+  }
+  .topic{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline solid burlywood;
+  }
+
