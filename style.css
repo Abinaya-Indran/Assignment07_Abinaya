@@ -18,6 +18,9 @@
     font-size:30px;
     font-family:'Courier New', Courier, monospace;
 }
+li:hover{
+    color: #C8914B;
+}
 
 li{
     
@@ -124,8 +127,9 @@ li{
         width: 90%;
         padding-left: 100px;
         text-align: center;
-       
     }
+   
+
     strong{
         font-size: 22px;
         color: #d6d5d6;
@@ -172,4 +176,16 @@ li{
   }
   .img4{
     padding: 0 20px;
-   }
+  }
+
+  .section1{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline solid burlywood;
+  }
+  .section2{
+    display: flex;
+    opacity: 0.4;
+    border-style: initial;
+    border: 5px solid #BE7731;
+  }
