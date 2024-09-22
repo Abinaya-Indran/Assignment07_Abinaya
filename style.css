@@ -4,10 +4,11 @@
     justify-content: space-around;
     background-color: rgba(71,50,26,255);
     color: aliceblue;
+  
  }
 
  h1{
-     font-size:50px;
+     font-size:60px;
     
   }
  
@@ -28,10 +29,10 @@ li{
 }
 
 .cup{
-    font-size: 50px;
+    font-size: 60px;
     position: relative;
     padding-top: 35px;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 .logo{
     display: flex;
@@ -40,10 +41,11 @@ li{
 }
 .main-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgba(55,35,10,255);
     width: 90%;
     margin-left: 100px;
+    justify-content: center;
     }
 
     h2{
@@ -83,13 +85,27 @@ li{
      .button1:hover{
         transform: scale(0.8) ;
      }
-     
+  .hotcoffee{
+      width: 100vw;
+      height: 30vw;
+      padding-right: 20px;
+      padding-bottom: 100px;
+  }
      img{
-        width:50%;
+        width:60%;
         padding: 100px;
+       }
+
+     img:hover{
+        transform: scale(1.5) ;
      }
      .content-container{
-        padding: 100px;
+        padding-top:70px;
+        padding-left: 50px;
+        width: 80vw;
+        height: 20vw;
+
+        
     }
     .main{
         display: flex;
@@ -100,16 +116,19 @@ li{
     }
     .part{
         display: unset;
-        padding-top: 150px;
+        padding-top: 80px;
         text-align: center;
-        padding-right: 100px;
-        width: 40%;
+        padding-right: 220px;
+        width: 60vw;
+        height:5vw;
+
        
     }
 
     .part1{
         color: aliceblue;
         text-decoration: underline solid burlywood;
+        font-size: 40px;
        
     }
 
@@ -120,25 +139,31 @@ li{
        
     }
 
+    .heartcup{
+        width: 70%;
+     }
+
     .img{
        width: 60%;
      
     }
+
     .menu{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         color:#a9a195;
         width: 90%;
         padding-left: 100px;
+        padding-bottom: 100px;
         text-align: center;
     }
     .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{
-        transform: scale(0.8) ;
+        transform: scale(1.1) ;
     }
    
 
     strong{
-        font-size: 22px;
+        font-size: 25px;
         color: #d6d5d6;
     }
     .main-menu{
@@ -169,21 +194,17 @@ li{
     border: 1px solid orange;
     text-align: center;
     margin: 0 8px;
+    font-size: 20px;
 
    }
-  
-   .img1{
-      width: 30vw;
-     padding-top: 80px;
-   }
-   .img2{
-    padding-top: 30px;
-   }
-  .img3{
-    padding: 0 10px;
+  .img1{
+    padding-top: 125px;
   }
-  .img4{
-    padding: 0 20px;
+  .img5{
+    padding-inline-start: 70px;
+  }
+  .img6{
+    padding-bottom: 7px;
   }
 
   .section1{
@@ -216,9 +237,11 @@ li{
    
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr  ;
-    padding-right:140px;
+    padding-right:200px;
     padding-top: 50px;
     margin: 0 10px;
+    gap: 6px 12px;
+   
    
   }
  .photo{
@@ -229,6 +252,60 @@ li{
  }
 .photo:hover{
     transform: scale(0.8) rotate(-15deg);
-    border-radius: 30px;
+     border-radius: 30px; 
+}
+.contactus{
+    padding-top: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline solid #bb8746;
+}
+.contact{
+    background-color: #463219;
+    width: 90%;
+    height: 35vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+   
+    
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.boxset{
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.wordset{
+    padding-top: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+textarea{
+    outline: none;
+   padding-top: 15px;
+   padding-left: 40px;
+   border-radius: 7px;
+   margin: 8px;
+}
+button{
+    padding: 10px 28px;
+    text-align: center;
+    background-color: #37230a;
+    color:aliceblue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:  25px;
+    border: 2px solid #37230a;
+}
+button:hover{
+    transform: scale(1.2);
 }
 
