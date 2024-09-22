@@ -88,9 +88,8 @@ li{
      img{
         width:50%;
         padding: 100px;
-       
-       
-     }
+       }
+
      img:hover{
         transform: scale(1.5) ;
      }
@@ -240,4 +239,17 @@ li{
 .photo:hover{
     transform: scale(0.8) rotate(-15deg);
     border-radius: 30px;
+}
+.heading{
+    padding-top: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline solid #bb8746;
+}
+.contact{
+    background-color: #463219;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
 }
