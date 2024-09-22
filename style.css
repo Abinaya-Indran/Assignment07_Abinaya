@@ -18,8 +18,6 @@
     list-style-type: none;
     font-size:30px;
     font-family:'Courier New', Courier, monospace;
-
- 
 }
 li:hover{
     color: #C8914B;
@@ -40,7 +38,7 @@ li{
     display: flex;
     flex-direction: row-reverse;
     padding-right: 50px;
-} 
+}
 .main-container{
     display: flex;
     justify-content: space-between;
@@ -139,13 +137,17 @@ li{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
        
-       
     }
 
     .heartcup{
         width: 70%;
+     }
+
+    .img{
+       width: 60%;
      
     }
+
     .menu{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -154,8 +156,6 @@ li{
         padding-left: 100px;
         padding-bottom: 100px;
         text-align: center;
-        
-    
     }
     .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{
         transform: scale(1.1) ;
@@ -187,8 +187,6 @@ li{
    .img{
       padding: 10px 10px;
       width: auto;
-     
-     
    }
    .note{
     display:grid;
@@ -220,6 +218,7 @@ li{
     border-style: initial;
     border: 5px solid #BE7731;
   }
+
   .Big{
     background-color: rgba(70,50,25,255);
     width:90%;
@@ -309,3 +308,4 @@ button{
 button:hover{
     transform: scale(1.2);
 }
+
