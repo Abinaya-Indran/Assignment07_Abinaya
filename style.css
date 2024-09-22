@@ -265,7 +265,7 @@ li{
 .contact{
     background-color: #463219;
     width: 90%;
-    height: 40vw;
+    height: 35vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 100px;
    
@@ -280,11 +280,32 @@ li{
 }
 .boxset{
     font-size: 40px;
-    
+    border-radius: 20px;
+    padding: 10px;
 }
 .wordset{
-   
+    padding-top: 50px;
     font-size: 20px;
     color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+textarea{
+    outline: none;
+   padding-top: 15px;
+   padding-left: 40px;
+   border-radius: 7px;
+   margin: 8px;
+}
+button{
+    padding: 10px 28px;
+    text-align: center;
+    background-color: #37230a;
+    color:aliceblue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:  25px;
+    border: 2px solid #37230a;
+}
+button:hover{
+    transform: scale(1.2);
 }
