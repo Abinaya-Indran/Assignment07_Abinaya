@@ -309,3 +309,10 @@ button{
 button:hover{
     transform: scale(1.2);
 }
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #9b7c39;
+    padding: 20px;
+   
+}
