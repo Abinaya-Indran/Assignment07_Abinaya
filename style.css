@@ -85,7 +85,7 @@ li{
          color:#aea799;
      }
      .button1:hover{
-        transform: scale(0.8) ;
+        transform: scale(1.3) ;
      }
   .hotcoffee{
       width: 100vw;
@@ -314,6 +314,8 @@ footer{
     justify-content: center;
     background-color: #9b7c39;
     padding: 20px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
 .icon{
